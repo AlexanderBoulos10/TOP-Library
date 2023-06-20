@@ -1,0 +1,70 @@
+.title{
+    text-align: center;
+}
+
+.addButton{
+    text-align: center;
+    margin: auto;
+}
+
+div.form{
+    display: block;
+    text-align: center;
+}
+
+form
+{
+    width: 300px;
+    padding: 8px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
+
+#title, #author, #pages, #checkbox{
+    width: 98%;
+    margin: 5px 0;
+    display: block;
+    height: 20px;
+} 
+
+.formButtons{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    border: 3px solid rgb(66, 30, 150);
+    border-radius: 10px;
+    margin: 0 20%;
+    text-align: left;
+    list-style-type: none;
+}
+
+.listButtons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteButton{
+    background-color: red;
+}
+
+.readButton{
+    background-color: green;
+}
