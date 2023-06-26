@@ -111,5 +111,3 @@ cancelForm.addEventListener("click", () => {
 });
 
 const deleteItem = document.querySelector(".deleteButton");
-
-// deleteItem.addEventListener("click", () => {});
